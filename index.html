@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIS Certificate</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="h-[100vh] w-[100vw]">
+    <div class="main h-[1080px] w-[1920px]">
+        <img src="./assets/img/background.png" alt="bg" class="bg h-[100%] w-[100%] absolute top-[0px] z-[5]">
+        <div class="header absolute top-10 flex flex-col items-center justify-center w-[100%] z-[10] leading-tight">
+            <h1 class="century text-[4rem] mb-[0px]">Certificate Of</h1>
+            <p class="century text-[4rem] mb-[20px] gradient-text shadow heading">{{heading}}</p>
+            <div class="line"><img src="./assets/img/headerLine.png" alt=""></div>
+        </div>
+
+        <div class="body absolute top-[12vw] flex flex-col items-center justify-center z-[10] w-[100%]">
+            <h1 class="wedding text-[5rem] font-bold">Doon International School</h1>
+            <p class="century text-[2rem]">This Certificate Is Proudly Presented To</p>
+            <p class="style-script text-[5rem] fullname">{{fullname}}</p>
+            <div class="line"><img src="./assets/img/headerLine.png" alt=""></div>
+            <p class="description text-wrap text-[2rem] w-[25%] monospace text-center font-thin tracking-[2px]">{{description}}</p>
+        </div>
+
+        <div class="footer absolute bottom-[6vh] right-[8vw] z-[10] h-[20vh]">
+            <p class="century text-[2.7rem] text-center">Signature</p>
+            <div class="line"><img src="./assets/img/signatureLine.png" alt=""></div>
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>

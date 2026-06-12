@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Century";
+    src: url("./assets/fonts/Century.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Wedding";
+    src: url("./assets/fonts/Wedding.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "StyleScript";
+    src: url("./assets/fonts/StyleScript.ttf") format("opentype");
+}
+.century {
+    font-family: Century;
+}
+
+.style-script {
+  font-family: "StyleScript", cursive;
+}
+
+
+.wedding {
+    font-family: Wedding;
+}
+.gradient-text {
+    background-image: url("./assets/img/gradient.png");
+    background-size: 400% 100%;
+    background-position: center;
+    color: transparent;
+        -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Chrome/Safari */
+
+    display: inline-block;
+}
+.gradient-text {
+    transform: translateZ(0);
+    will-change: transform;
+}
+.shadow {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    filter:
+        drop-shadow(0 0 4px rgba(0,0,0,0.4))
+}
+
+.monospace{
+    font-family: monospace;
+}
