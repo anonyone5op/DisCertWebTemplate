@@ -10,15 +10,15 @@
 }
 
 @font-face {
-    font-family: "StyleScript";
-    src: url("./assets/fonts/StyleScript.ttf") format("opentype");
+    font-family: "Autography";
+    src: url("./assets/fonts/Autography.otf") format("opentype");
 }
 .century {
     font-family: Century;
 }
 
-.style-script {
-  font-family: "StyleScript", cursive;
+.Autography {
+  font-family: "Autography", cursive;
 }
 
 

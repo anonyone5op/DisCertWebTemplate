@@ -4,6 +4,7 @@
     const heading = params.get("heading");
     const fullname = params.get("fullname");
     const description = params.get("description");
+    const topic = params.get("topic");
 
     if (heading) {
         const el = document.querySelectorAll(".heading");
@@ -18,4 +19,9 @@
     if (description) {
         const el = document.querySelector(".description");
         if (el) el.textContent = description;
+    }
+
+    if (topic) {
+        const el = document.querySelector(".topic");
+        if (el) el.textContent = topic;
     }
